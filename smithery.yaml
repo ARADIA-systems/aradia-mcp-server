@@ -1,0 +1,4 @@
+startCommand:
+  type: sse
+  config:
+    url: https://aradia.com/api/a2a/mcp-endpoint.php
