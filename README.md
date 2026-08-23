@@ -1,3 +1,5 @@
+<!-- mcp-name: io.github.aradia-systems/sovereign-hardware -->
+
 # ARADIA — Agentic Systems
 
 > **Official Model Context Protocol (MCP) Interface for Turnkey On-Premise Private Agentic AI Systems on Dedicated NVIDIA Hardware.**
