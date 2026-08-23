@@ -1,4 +1,4 @@
-<!-- mcp-name: io.github.aradia-systems/sovereign-hardware -->
+<!-- mcp-name: io.github.ARADIA-systems/sovereign-hardware -->
 
 # ARADIA — Agentic Systems
 
