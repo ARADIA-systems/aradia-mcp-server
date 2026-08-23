@@ -2,7 +2,7 @@
 
 > **Official Model Context Protocol (MCP) Interface for Turnkey On-Premise Private Agentic AI Systems on Dedicated NVIDIA Hardware.**
 
-[![smithery badge](https://smithery.ai/badge/@ARADIA-systems/aradia-mcp-server)](https://smithery.ai/server/@ARADIA-systems/aradia-mcp-server)
+[![smithery badge](https://smithery.ai/badge/admin-8zx9/agentic-systems)](https://smithery.ai/servers/admin-8zx9/agentic-systems)
 
 ---
 
