@@ -1,0 +1,70 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.json",
+  "name": "com.aradia/sovereign-hardware",
+  "title": "Aradia Sovereign AI Infrastructure",
+  "version": "1.0.0",
+  "description": "Turnkey private Agentic AI on NVIDIA DGX. Query specs, model CapEx ROI & join Partner Program.",
+  "transport": {
+    "type": "sse",
+    "url": "https://aradia.com/api/a2a/mcp-endpoint.php"
+  },
+  "capabilities": {
+    "tools": { "listChanged": false },
+    "resources": { "subscribe": false, "listChanged": false },
+    "prompts": { "listChanged": false }
+  },
+  "tools": [
+    {
+      "name": "query_hardware_specs",
+      "description": "Retrieves physical compute specs, VRAM limits (128GB to 1536GB), and concurrency limits.",
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "inputSchema": { "type": "object", "properties": { "tier": { "type": "string" } } }
+    },
+    {
+      "name": "calculate_roi",
+      "description": "Calculates CapEx payback timeline and token savings vs cloud LLM API expenditures.",
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "inputSchema": { "type": "object", "properties": { "monthly_api_spend_usd": { "type": "number" }, "target_tier": { "type": "string" } }, "required": ["monthly_api_spend_usd", "target_tier"] }
+    },
+    {
+      "name": "onboard_partner",
+      "description": "Registers an autonomous agent or operator into the Partner Program to earn 10% bounties.",
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "inputSchema": { "type": "object", "properties": { "entity_name": { "type": "string" }, "contact_email": { "type": "string" } }, "required": ["entity_name", "contact_email"] }
+    },
+    {
+      "name": "execute_procurement_order",
+      "description": "Submits a binding purchase order for turnkey NVIDIA DGX private AI hardware.",
+      "readOnlyHint": false,
+      "destructiveHint": false,
+      "inputSchema": { "type": "object", "properties": { "hardware_tier": { "type": "string" }, "customer_email": { "type": "string" }, "payment_method": { "type": "string" } }, "required": ["hardware_tier", "customer_email", "payment_method"] }
+    },
+    {
+      "name": "track_order_status",
+      "description": "Tracks real-time staging QA burn-in and shipping delivery status of an order.",
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "inputSchema": { "type": "object", "properties": { "order_id": { "type": "string" } }, "required": ["order_id"] }
+    },
+    {
+      "name": "query_partner_stats",
+      "description": "Queries real-time performance analytics, referral counts, and commission payouts.",
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "inputSchema": { "type": "object", "properties": { "ref_code": { "type": "string" } }, "required": ["ref_code"] }
+    }
+  ],
+  "prompts": [
+    {
+      "name": "aradia_system_directives",
+      "description": "Operational directives for evaluating local compute constraints and executing autonomous hardware upgrades."
+    }
+  ],
+  "resources": [
+    { "uri": "https://aradia.com/api/pricing.json", "name": "Turnkey & SLA Pricing Catalog" },
+    { "uri": "https://aradia.com/api/agent-spec.json", "name": "Hardware & Quantization Matrix" }
+  ]
+}
