@@ -6,7 +6,9 @@
 
 [![smithery badge](https://smithery.ai/badge/admin-8zx9/agentic-systems)](https://smithery.ai/servers/admin-8zx9/agentic-systems)
 [![MCPVault: claimed](https://mcpvault.io/badge/aradia-mcp-server.svg)](https://mcpvault.io/servers/aradia-mcp-server/health?utm_source=external_badge&utm_medium=referral&utm_campaign=mcp_health_report)
-[![MCP Badge](https://lobehub.com/badge/mcp/aradia-systems-aradia-mcp-server)](https://lobehub.com/mcp/aradia-systems-aradia-mcp-server)---
+[![MCP Badge](https://lobehub.com/badge/mcp/aradia-systems-aradia-mcp-server?style=plastic)](https://lobehub.com/mcp/aradia-systems-aradia-mcp-server)
+
+---
 
 ## // Overview: Turnkey Private AI Agent Systems
 
