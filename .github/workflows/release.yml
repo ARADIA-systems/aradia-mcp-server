@@ -1,0 +1,20 @@
+name: Release & Marketplace Sync
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [lobehub-market-verify, release, sync]
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync MCP Metadata
+        run: |
+          echo "Syncing Aradia MCP Server metadata with LobeHub Marketplace..."
+          curl -s https://aradia.com/api/a2a/mcp-endpoint.php > /dev/null || true
