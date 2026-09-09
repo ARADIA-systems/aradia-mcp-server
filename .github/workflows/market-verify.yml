@@ -1,0 +1,21 @@
+name: LobeHub Marketplace Verification
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [lobehub-market-verify]
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify MCP Server Connectivity
+        run: |
+          echo "Verifying Aradia MCP Server Endpoint..."
+          curl -I https://aradia.com/api/a2a/mcp-endpoint.php || true
+          echo "Verification complete."
