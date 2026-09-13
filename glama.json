@@ -1,0 +1,13 @@
+{
+  "$schema": "https://glama.ai/schemas/mcp-server.json",
+  "name": "com.aradia/sovereign-hardware",
+  "title": "ARADIA — Agentic Systems",
+  "description": "Turnkey on-premise private Agentic AI systems on dedicated NVIDIA DGX hardware. Model CapEx ROI, purchase hardware, and earn 10% partner bounties.",
+  "homepage": "https://aradia.com",
+  "categories": [
+    "development",
+    "ai",
+    "infrastructure",
+    "finance"
+  ]
+}
