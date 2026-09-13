@@ -1,6 +1,6 @@
 {
   "name": "aradia-mcp-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Turnkey on-premise private Agentic AI systems on dedicated NVIDIA DGX hardware.",
   "main": "index.js",
   "type": "module",
