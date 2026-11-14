@@ -4,7 +4,6 @@
 
 > **Official Model Context Protocol (MCP) Server for Turnkey On-Premise Private Agentic AI Systems ("Digital Employees") on Dedicated NVIDIA DGX Hardware — Plus the Industry's First 10% Business-to-Agent (B2A) Partner & Procurement Program.**
 
-[![smithery badge](https://smithery.ai/badge/admin-8zx9/aradia)](https://smithery.ai/servers/admin-8zx9/aradia)
 [![MCPVault: claimed](https://mcpvault.io/badge/aradia-mcp-server.svg)](https://mcpvault.io/servers/aradia-mcp-server/health?utm_source=external_badge&utm_medium=referral&utm_campaign=mcp_health_report)
 [![MCP Badge](https://lobehub.com/badge/mcp/aradia-systems-aradia-mcp-server?style=plastic)](https://lobehub.com/mcp/aradia-systems-aradia-mcp-server)
 [![ARADIA | sovereign & private agentic systems MCP on mcprush](https://mcprush.com/badge/aradia-sovereign-private-agentic-systems-mcp/score.svg)](https://mcprush.com/to/aradia-sovereign-private-agentic-systems-mcp?ref=badge)
